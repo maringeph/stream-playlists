@@ -1,0 +1,84 @@
+#EXTM3U
+#EXT-X-VERSION:1
+
+#EXTINF:-1 tvg-id="TechnoBase.FM" tvg-logo="https://www.technobase.fm/media/icons/tb/favicon-32x32.png" group-title="",TechnoBase.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.technobase.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.technobase.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.technobase.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.technobase.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="HouseTime.FM" tvg-logo="https://www.housetime.fm/media/icons/ht/favicon-32x32.png" group-title="",HouseTime.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.housetime.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.housetime.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.housetime.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.housetime.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="HardBase.FM" tvg-logo="https://www.hardbase.fm/media/icons/hb/favicon-32x32.png" group-title="",HardBase.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.hardbase.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.hardbase.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.hardbase.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.hardbase.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="TranceBase.FM" tvg-logo="https://www.trancebase.fm/media/icons/trb/favicon-32x32.png" group-title="",TranceBase.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.trancebase.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.trancebase.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.trancebase.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.trancebase.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="CoreTime.FM" tvg-logo="https://www.coretime.fm/media/icons/ct/favicon-32x32.png" group-title="",CoreTime.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.coretime.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.coretime.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.coretime.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.coretime.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="ClubTime.FM" tvg-logo="https://www.clubtime.fm/media/icons/clt/favicon-32x32.png" group-title="",ClubTime.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.clubtime.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.clubtime.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.clubtime.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.clubtime.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="TeaTime.FM" tvg-logo="https://www.teatime.fm/media/icons/tt/favicon-32x32.png" group-title="",TeaTime.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.teatime.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.teatime.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.teatime.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.teatime.fm/tunein-aacisdn
+
+#EXTINF:-1 tvg-id="Replay.FM" tvg-logo="https://www.replay.fm/media/icons/rp/favicon-32x32.png" group-title="",Replay.FM
+#EXT-X-STREAM-INF:BANDWIDTH=256000
+http://listen.replay.fm/tunein-aac-hd
+#EXT-X-STREAM-INF:BANDWIDTH=192000
+http://listen.replay.fm/tunein-mp3
+#EXT-X-STREAM-INF:BANDWIDTH=96000
+http://listen.replay.fm/tunein-aacplus
+#EXT-X-STREAM-INF:BANDWIDTH=48000
+http://listen.replay.fm/tunein-aacisdn
+
+#EXT-X-ENDLIST
