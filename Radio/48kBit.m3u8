@@ -1,0 +1,19 @@
+#EXTM3U
+#EXT-X-VERSION:1
+#EXTINF:-1 tvg-name="TechnoBase.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.technobase.fm/media/icons/tb/favicon-32x32.png",TechnoBase.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.technobase.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=TechnoBase.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="HouseTime.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.housetime.fm/media/icons/ht/favicon-32x32.png",HouseTime.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.housetime.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=HouseTime.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="HardBase.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.hardbase.fm/media/icons/hb/favicon-32x32.png",HardBase.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.hardbase.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=HardBase.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="TranceBase.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.trancebase.fm/media/icons/trb/favicon-32x32.png",TranceBase.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.trancebase.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=TranceBase.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="CoreTime.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.coretime.fm/media/icons/ct/favicon-32x32.png",CoreTime.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.coretime.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=CoreTime.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="ClubTime.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.clubtime.fm/media/icons/clt/favicon-32x32.png",ClubTime.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.clubtime.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=ClubTime.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="TeaTime.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.teatime.fm/media/icons/tt/favicon-32x32.png",TeaTime.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.teatime.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=TeaTime.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXTINF:-1 tvg-name="Replay.FM" tvg-id="" group-title="Radio-DE" radio="true" tvg-logo="https://www.replay.fm/media/icons/rp/favicon-32x32.png",Replay.FM
+pipe://ffmpeg -loglevel fatal -i http://listen.replay.fm/tunein-aacisdn -vcodec copy -acodec copy -metadata service_name=Replay.FM -metadata service_provider=Radio-DE -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+#EXT-X-ENDLIST
